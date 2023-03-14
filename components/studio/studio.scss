@@ -1,0 +1,51 @@
+.studio {
+
+    background-color: #F7F6FF;
+
+    &__content {
+        display: flex;
+        padding-top: 82px;
+    }
+
+    &__left-part {
+        flex-basis: 50%;
+    }
+
+    &__h1 {
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 65px;
+        color: #333333;
+
+        span {
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 65px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__subtitle {
+        padding-top: 15px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__btns {
+        padding-top: 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    &__btns-item {
+    }
+
+    &__right-part {
+        flex-basis: 50%;
+    }
+
+    &__img {
+        float: right;
+    }
+}

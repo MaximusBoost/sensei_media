@@ -1,0 +1,65 @@
+$color-red: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+$color-blue: #77B2D3;
+
+._container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-call-red {
+    width: 205px;
+    height: 54px;
+    border-radius: 9px;
+    background: $color-red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn-subtitle-blue-big {
+    width: 241px;
+    height: 54px;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-blue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn-subtitle-blue-small {
+    width: 114px;
+    height: 54px;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-blue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn-subservice-red {
+    width: 195px;
+    height: 54px;
+    border-radius: 9px;
+    background: $color-red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
